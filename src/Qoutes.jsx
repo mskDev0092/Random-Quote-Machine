@@ -1,9 +1,8 @@
-import React from 'react';
 import './style.css';
 
 import React, { useState } from 'react';
 
-const RandomQuote = () => {
+export default function RandomQuote() {
   const [quoteIndex, setQuoteIndex] = useState(0);
   const qoutesList = [
     {
@@ -211,11 +210,11 @@ const RandomQuote = () => {
   const currentQuote = getQuote();
 
   return (
-    <>
-      <div id="container" class="main">
-        <div id="quote-box" class="quote-box">
-          <h1 id="text">{currentQuote.qoute}</h1>
-          <h2 id="author">{currentQuote.author}</h2>
+    <div>
+      <div id="container">
+        <div id="quote-box" className="quote-box">
+          <p id="text">{currentQuote.qoute}</p>
+          <p id="author">{currentQuote.author}</p>
           <button id="new-quote" onClick={showNextQuote}>
             Next Qoute
           </button>
@@ -230,8 +229,6 @@ const RandomQuote = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
-};
-
-export default RandomQuote;
+}
