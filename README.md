@@ -13,6 +13,6 @@ Practiced react useState to make this qoutes machine.
 ## Features
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/mskDev0092/markdown-project-fcc)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/mskDev0092)
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/stackblitz-starters-hagkql)
